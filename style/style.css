@@ -88,7 +88,7 @@ header{
     .navbar{
         display: none;
         position: fixed;
-        top: 10%;
+        top: 100px;
         right: -100%;
         width: 270px;
         height: 250px;
