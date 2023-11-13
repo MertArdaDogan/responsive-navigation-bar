@@ -46,7 +46,7 @@ header{
     margin: 0 15px;
     transition:all .50s ease;
     border-bottom: 3px dotted transparent;
-    font-size: 15px;
+    font-size: 17px;
 }
 .navbar a:hover{
     color: #29fd53;
@@ -63,7 +63,7 @@ header{
     margin-right: 25px;
     margin-left: 10px;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     transition: all .50s ease;
 }
@@ -113,5 +113,29 @@ header{
     }
     .navbar.open{
         right: 11%;
+    }
+}
+@media (max-width: 550px){
+    header{
+        padding: 28px 9%;  
+    }
+    .logo a{
+        font-size: 1.5rem;
+    }
+    #menu{
+        font-size: 25px;
+    }
+    .login a{
+        margin-left: initial;
+        margin-right: 15px;
+    }
+}
+@media (max-width: 420px){
+    header{
+        padding: 28px 5.5%;  
+    }
+    .login a{
+        margin-right: 15px;
+        font-size: 1.1rem;
     }
 }
